@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Finder.iml" filepath="$PROJECT_DIR$/.idea/modules/Finder.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Finder.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Finder.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AOS.iml" filepath="$PROJECT_DIR$/.idea/modules/AOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/AOS.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/AOS.app.iml" />
     </modules>
   </component>
 </project>

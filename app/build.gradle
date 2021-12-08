@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "ru.seva.finder"
+        applicationId 'adolescent.online.safety'
         minSdkVersion 17
         targetSdkVersion 26
         versionCode 15
@@ -22,6 +22,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            applicationIdSuffix 'adolescent_online_safety'
         }
     }
 }

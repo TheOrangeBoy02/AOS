@@ -3,9 +3,20 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_main_a.xml" value="0.2111111111111111" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/layout/activity_instructions.xml" value="0.17768595041322313" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/layout/activity_main.xml" value="0.15925925925925927" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/layout/activity_main_a.xml" value="0.1" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/menu/context_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/menu/context_menu_trusted.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/AOS/AOS/app/src/main/res/menu/history_menu.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/drawable/add_shape.xml" value="0.240625" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/drawable/custom_shape.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/drawable/custom_shape_orange.xml" value="0.13796296296296295" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_main_a.xml" value="0.22" />
         <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_main_aa.xml" value="0.14" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_open_map.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/Badmac/Documents/Bluetooth/Finder/Finder/app/src/main/res/layout/activity_track_status.xml" value="0.10989583333333333" />
       </map>
     </option>
   </component>

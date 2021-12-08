@@ -3,8 +3,9 @@
 
     <item android:id="@+id/internal_map__id"
         android:title="@string/show_on_int_map" />
-    <item android:id="@+id/external_map_id"
-        android:title="@string/show_ext_map" />
+    <item
+        android:id="@+id/external_map_id"
+        android:title="@string/open_with" />
     <item android:id="@+id/info_id"
         android:title="@string/show_info" />
     <item android:id="@+id/del_marker_id"

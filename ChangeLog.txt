@@ -1,0 +1,69 @@
+v2.4
+- for gps- and wifi requests added timestamp to SMS
+- permissions requests only when they really need (now all permissions are not requested during the start)
+- services for searching now are "foreground" (should increase reliability)
+- fixes in Spanish translation
+
+v2.3
+- new feature: ringing by request, even if sound muted (only from trusted numbers)
+
+v2.2
+- Added Polish translation
+- fixed bug on android 4 with auto enabling GPS
+
+v2.1
+- contacts can be added from contacts (no new permissions required)
+- spaces are automatically removed from the phone number when adding
+- short link to OSM in SMS (when GPS used)
+
+v2.0
+- added Dutch
+- added Spanish
+
+v1.9
+- new feature: auto activation GPS
+- some fixes in english translation
+
+v1.8
+- added German translation (by moosburger)
+- added "adaptive" icon for newer Android version
+
+v1.7
+- fixed bug with not working wifi-searching feature
+- fixed bug with crash on android 8 when mute feature enabled
+- notifications on android 8 now are working
+
+v1.6
+- fixed bug on Android Oreo 8.0, when for sending SMS "READ_PHONE_STATE" permission also needed (it used only in this android version)
+- fixed bug when user can set empty commands and other settings
+- now commands are compared with each other (to be different)
+
+v1.5
+- cache trim size now depend from max size
+- new tracking feature
+
+v1.4
+- number of digits in SMS after comma reduced
+- new satellite map (uses MapBox)
+- cache size setting
+
+v1.3
+- map changed to OpenStreetMap
+- "add" button disabled if phone field is empty
+
+v1.2
+- added names for contacts
+- eliminated leakage with SQLite
+- fixed critical bug with mobile nets on old Android versions
+- main layout changed to "Tablelayout", toolbar reduced (help now is button)
+- new phone now add via dialog (field of name and number are deleted)
+- some improvements in formatting info about location in history
+
+v1.1
+- unused permissions deleted
+- Android bug/feature with getting wifi-data only with enabled GPS described in help. Added notification about it when number added
+- screenshot of map in play market
+
+
+v1.0
+- initial release

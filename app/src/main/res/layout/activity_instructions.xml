@@ -1,0 +1,187 @@
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Instructions">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF">
+
+            <TextView
+                android:id="@+id/how_it_works"
+                android:layout_width="406dp"
+                android:layout_height="42dp"
+                android:layout_marginTop="104dp"
+                android:background="@drawable/text_area"
+                android:gravity="center"
+                android:text="HOW THE APP WORKS"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.538"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B36C6E6E"
+                app:layout_constraintBottom_toBottomOf="@+id/how_it_works" />
+
+            <TextView
+                android:id="@+id/how_it_works_details"
+                android:layout_width="390dp"
+                android:layout_height="170dp"
+                android:fontFamily="@font/gotham_book"
+                android:gravity="center"
+                android:text="@string/how_it_works"
+                android:textColor="#055390"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view" />
+
+            <View
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B36C6E6E"
+                app:layout_constraintTop_toBottomOf="@+id/configuration" />
+
+            <TextView
+                android:id="@+id/configuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_area"
+                android:gravity="center"
+                android:text="HOW TO CONFIGURE "
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintTop_toBottomOf="@+id/how_it_works_details" />
+
+
+            <TextView
+                android:id="@+id/configuration_detail"
+                android:layout_width="392dp"
+                android:layout_height="242dp"
+                android:fontFamily="@font/gotham_book"
+                android:gravity="center"
+                android:text="@string/how_to_configure_details"
+                android:textColor="#055390"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view1" />
+
+            <TextView
+                android:id="@+id/About_App"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_area"
+                android:gravity="center"
+                android:text="ABOUT APP "
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintTop_toBottomOf="@+id/configuration_detail" />
+
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B36C6E6E"
+                app:layout_constraintTop_toBottomOf="@+id/About_App"
+                />
+
+
+            <TextView
+                android:id="@+id/About_App_details"
+                android:layout_width="405dp"
+                android:layout_height="162dp"
+                android:fontFamily="@font/gotham_book"
+                android:gravity="center|center_horizontal"
+                android:text="@string/about_details"
+                android:textColor="#055390"
+                android:textSize="15sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/About_App" />
+
+            <TextView
+                android:id="@+id/Developers"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/text_area"
+                android:gravity="center"
+                android:text="DEVELOPERS:"
+                android:textColor="#FF9800"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                app:layout_constraintTop_toBottomOf="@+id/About_App_details" />
+            <View
+                android:id="@+id/view3"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:background="#B36C6E6E"
+                app:layout_constraintTop_toBottomOf="@+id/Developers"
+                />
+
+            <TextView
+                android:id="@+id/developers_details"
+                android:layout_width="396dp"
+                android:layout_height="147dp"
+                android:fontFamily="@font/gotham_bold"
+                android:gravity="center|center_horizontal"
+                android:lineSpacingExtra="8sp"
+                android:text="Omwaako Tukula\nGift Sankhulani"
+                android:textColor="#3F51B5"
+                android:textSize="20sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view3" />
+
+            <TextView
+                android:id="@+id/about_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/gotham_bold"
+                android:text="@string/adolescent_online_safety"
+                android:textColor="#FF9800"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+            <TextView
+                android:id="@+id/about_title3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:fontFamily="@font/gotham_bold"
+                android:text="Version 1.0.0"
+                android:textColor="#EDEDEC"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/about_title" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="112dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/aos_logo1" />
+
+        </android.support.constraint.ConstraintLayout>
+
+    </ScrollView>

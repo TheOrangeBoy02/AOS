@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="104dp"
+        android:layout_height="56dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="91dp"
+        android:layout_marginEnd="145dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aos_logo_white_2" />
+
+    <TextView
+        android:id="@+id/adolescent_os"
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/gotham_bold"
+        android:text="ADOLESCENT ONLINE SAFETY"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FFFFFF"
+        android:textColorLink="#23FFFFFF"
+        android:textSize="18.5sp" />
+
+    <TextView
+        android:id="@+id/btn_settings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="80dp"
+        android:layout_toStartOf="@+id/help_button"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:onClick="set_btn_clicked"
+        android:text="Settings"
+        android:textColor="#B3E5FC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/help_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        android:clickable="true"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:onClick="help_btn_clicked"
+        android:text="Help"
+        android:textColor="#B3E5FC"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/btn_history"
+        android:layout_width="69dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="63dp"
+        android:layout_toStartOf="@+id/btn_settings"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:onClick="hist_btn_clicked"
+        android:text="History"
+        android:textColor="#B3E5FC"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="140dp"
+        android:background="@drawable/custom_shape"
+        android:backgroundTint="@color/orange_color"
+        android:fontFamily="@font/gotham_bold"
+        android:onClick="sms_btn_clicked"
+        android:text="Open SMS"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/textProgress"
+        style="@android:style/TextAppearance.Medium"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tabHost"
+        android:layout_centerHorizontal="true"
+        android:text="@string/request_sent"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/progress"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tabHost"
+        android:visibility="gone" />
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="514dp"
+        android:layout_below="@+id/btn_sms"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="-73dp"
+        android:layout_marginBottom="155dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@android:style/TextAppearance.DeviceDefault.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/phones_for_queries"
+                        android:textColor="#B3E5FC" />
+
+                    <ListView
+                        android:id="@+id/lvSendTo"
+                        android:layout_width="match_parent"
+                        android:layout_height="264dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#B3E5FC" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab_in"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        style="@android:style/TextAppearance.DeviceDefault.Small"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:text="@string/confidant_phones"
+                        android:textColor="#B3E5FC"
+                        android:textColorHint="#FFEAEA" />
+
+                    <ListView
+                        android:id="@+id/lvReceiveFrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+    </TabHost>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="281dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/gotham_book"
+        android:text="Press the Orange + Button to Add Number"
+        android:textSize="13sp" />
+
+
+</RelativeLayout>

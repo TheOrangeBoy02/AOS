@@ -1,0 +1,197 @@
+<resources>
+    <string name="app_name" translatable="false">Adolescent Online Safety</string>
+    <string name="remember_int_on">Add new phone</string>
+    <string name="set_button_text">Settings</string>
+    <string name="request_numbs">Numbers for requests</string>
+    <string name="answer_numbs">Trusted numbers</string>
+    <string name="phones_for_queries">List of numbers for requests (to request their coordinates):</string>
+    <string name="confidant_phones">"List of trusted numbers (the program will respond to their requests): "</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="phone_already_recorded">This number has already been recorded!</string>
+    <string name="number_saved">Phone number saved!</string>
+    <string name="pref_gps_name">GPS request</string>
+    <string name="gps_default_command" translatable="false">GPS Search</string>
+    <string name="gps_description">Text of GPS request command (and response)</string>
+    <string name="wifi_default_command" translatable="false">Wifi Search</string>
+    <string name="pref_wifi_name">WiFi request</string>
+    <string name="wifi_description">Text of Wifi request command (and response)</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="api_error">Google geolocation API error</string>
+    <string name="parsing_error">no Internet or bad API response</string>
+    <string name="no_map_app">No app to display maps has been detected, please install any maps app</string>
+    <string name="btn_hist_text">History</string>
+    <string name="history_description">Search history:</string>
+    <string name="show_info">All location info</string>
+    <string name="point_data">Location data (copyable):</string>
+    <string name="battery">Battery: %1$s%%\n</string>
+    <string name="latitude">Latitude: %1$.8f\n</string>
+    <string name="longitude">Longitude: %1$.8f\n</string>
+    <string name="accuracy">Accuracy: %1$d m\n</string>
+    <string name="meters">\u0020m</string>
+    <string name="altitude">Altitude: %1$.0f m\n</string>
+    <string name="speed">Speed: %1$.2f km/h\n</string>
+    <string name="course">Bearing: %1$.0f°\n</string>
+    <string name="delete_warning">Delete a location entry from history? (Irreversible!)</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="no_internet_warning">Network disconnected, send a request anyway? (without network connectivity, the request will have to be reopened from the list of SMS messages after connecting to a network.)</string>
+    <string name="no_rights_for_sms">Required permissions have not been granted, request not sent!</string>
+    <string name="request_has_been_send">Request has been sent!</string>
+    <string name="sms_messages">SMS Messages</string>
+    <string name="sms_open">Open SMS</string>
+    <string name="wifi_sms_processing">WiFi request is processing</string>
+    <string name="gps_sms_processing">GPS request is processing</string>
+    <string name="not_valid_sms">SMS processing failed, message may not contain coordinates</string>
+    <string name="no_sms_accsess">"SMS access error"</string>
+    <string name="insert_sms_text">Paste text from an SMS here to get location:</string>
+    <string name="parse_sms">Get location</string>
+    <string name="no_sms_rights">SMS permission not granted!</string>
+    <string name="show_on_int_map">Show on built-in map</string>
+    <string name="show_ext_map">"Open with a third-party application "</string>
+    <string name="del_point">Delete a location entry from history</string>
+    <string name="gps_not_enabled">GPS disabled on responding device, try WiFi request</string>
+    <string name="no_coord_bad_signal">Coordinates are not available, possibly weak GPS signal</string>
+    <string name="request_sent">Request sent, waiting for response…</string>
+    <string name="delete_text">Delete phone number</string>
+    <string name="error_getting_coordinats">Unable to get coordinates</string>
+    <string name="message_with_coord">"Message with location"</string>
+    <string name="coords_received">Detected coordinates of \"%1$s\"</string>
+    <string name="gps_processed">GPS request processed!</string>
+    <string name="from">from \"%1$s\"</string>
+    <string name="wifi_processed">"Wifi request processed! "</string>
+    <string name="remote_adding">Remote phone number added!</string>
+    <string name="was_added">%1$s added to trusted</string>
+    <string name="menu_gps_send">Send GPS data</string>
+    <string name="menu_wifi_send">Send network data</string>
+    <string name="coordinates_will_be_sent">Coordinates (using GPS) will be sent to %1$s</string>
+    <string name="nets_will_be_sent">Network data will be sent to %1$s</string>
+    <string name="no_gps_or_rights">GPS disabled! Location will NOT be sent!</string>
+    <string name="no_rights_for_wifi_sending">Required WiFi permissions not granted, data will not be sent!</string>
+    <string name="permissions_obtained">Permissions - OK</string>
+    <string name="no_permits_received">Required permissions have not been granted!</string>
+    <string name="open_help_start">Do you want to open help?</string>
+    <string name="command_group_settings">Request/response commands</string>
+    <string name="auto_open_map">Open map automatically</string>
+    <string name="auto_map_description">Map will be opened immediately after an SMS has been received</string>
+    <string name="answer_to_requests">Respond to requests</string>
+    <string name="response_descr">When disabled, you can only send requests</string>
+    <string name="searching_parameters">Search parameters</string>
+    <string name="scan_number">Number of WIFi scans</string>
+    <string name="scan_description">Scan multiple times to discover more networks</string>
+    <string name="scan_pause">Pause between scans</string>
+    <string name="seconds">in seconds</string>
+    <string name="mac_number">Number of MACs in SMS response</string>
+    <string name="mac_number_descr">Maximum amount of MAC addresses in SMS response</string>
+    <string name="gps_work_time">Max GPS run time</string>
+    <string name="gps_time_descr">Max run time of GPS, in minutes</string>
+    <string name="desired_accuracy">Desired GPS accuracy, in meters</string>
+    <string name="accuracy_descr">First fixes are not reliable, the app can skip them</string>
+    <string name="mute">Mute sound for incoming SMS requests</string>
+    <string name="mute_descr">Device sounds will be temporarily disabled when request received</string>
+    <string name="remote">Remotely add new phone numbers</string>
+    <string name="remote_descr">Ability to remotely add new numbers to the list of trusted numbers</string>
+    <string name="remote_command">Remote add command</string>
+    <string name="phone_number">Phone number (needed for history):</string>
+    <string name="wifi_request">Wifi Search</string>
+    <string name="gps_request">GPS Search</string>
+    <string name="del_number">Delete phone number</string>
+    <string name="help_title">Help</string>
+    <string name="check_settings">Check settings! Responding is enabled!</string>
+    <string name="wifi_gps_warning">Enable the GPS!</string>
+    <string name="name_hint_text">Name of new number</string>
+    <string name="name_text">Name:</string>
+    <string name="phone_text">New phone number:</string>
+    <string name="example_number">+265 000 0000</string>
+    <string name="unknown_number">unknown (%1$s)</string>
+    <string name="positive_add_button">Add</string>
+    <string name="negative_add_button">Cancel</string>
+    <string name="sat">Satellite view</string>
+    <string name="sat_descr">Show satellite imagery instead of OSM</string>
+    <string name="map_param">Map parameters</string>
+    <string name="cache_size">Cache size</string>
+    <string name="cache_descr">Size of tile cache saved for offline use, MB</string>
+    <string name="tracking_menu_item">Start tracker…</string>
+    <string name="max_sms_number">Max number of sent SMS:</string>
+    <string name="sms_delay">Delay between checking coordinates (\u226520, sec):</string>
+    <string name="coord_in_sms">Number of coordinates in one SMS:</string>
+    <string name="tracking_accuracy">Desired coordinates accuracy, m</string>
+    <string name="tracking_already_running">Tracker already running!</string>
+    <string name="tracking_started">Tracker started!</string>
+    <string name="tracking_on_notify">Tracker is active - %1$s</string>
+    <string name="stop_traking">Stop tracker</string>
+    <string name="traking_complet">Tracking is completed!</string>
+    <string name="tracking_stopped_label">Tracking stopped!</string>
+    <string name="sms_sent">SMS sent: %1$d</string>
+    <string name="start_tracking">Start!</string>
+    <string name="remaining_mes">Remaining messages: %1$d</string>
+    <string name="new_track_data">New tracking data received!</string>
+    <string name="tracks_list">List of tracks:</string>
+    <string name="poits_tab">Points</string>
+    <string name="tracks_tab">Tracks</string>
+    <string name="open_track">Open track</string>
+    <string name="del_track">Delete track</string>
+    <string name="exp_track">Export track</string>
+    <string name="delete_track_warning">Delete track? (irreversible!)</string>
+    <string name="date_time">%s \n%.1f km/h</string>
+    <string name="track_saved_message">Track saved! in Downloads</string>
+    <string name="mute_tracking_sms">Mute incoming tracking SMS</string>
+    <string name="tracking_sms_open">Tracking SMS processed!</string>
+    <string name="wrong_values">Wrong value!  (Not saved!)</string>
+    <string name="sound_perm_fail">Permission not granted, feature disabled</string>
+    <string name="enable_sound">Please, enable \'Dont disturb permission\' for AOS (need for \'ring\' feature)</string>
+    <string name="single_coord_chan">Single coordinates</string>
+    <string name="single_coord_chan_description">Used for notification about requests/responses with coordinates</string>
+    <string name="tracking_chan">Tracking</string>
+    <string name="tracking_chan_description">Used for data about tracking (both for receiving and sending)</string>
+    <string name="enable_location">Turn Location on automatically</string>
+    <string name="location_enable_descr">Activate Location when a request is received.</string>
+    <string name="location_enable_grant_descr">This requires permission approval via ADB. See https://github.com/Seva-coder/Finder.</string>
+    <string name="add_from_contacts_button">Add Number From contacts</string>
+
+    <string name="ring_default_command" translatable="false">ring</string>
+
+    /string>
+    <string name="how_to_configure_details" translatable="false">
+        Once installed open the application and from the child\s phone add the parents number by selecting on trusted  numbers
+        and pressing the add button. you can either choose to add contact from the phone contacts or add number manually
+        by entering the name and contact number with country code and the click add  navigate to setting and edit the command
+        according to your preference <b> NOTE:</b>  command should be simple and straight forward e.g <b>gs_search </b>with no spaces \n\n
+
+
+
+        similarly on the parents device the add the child\'s number under number for request once added the parent can
+        access different command by tapping the child number which the parent want to access
+
+
+    </string>
+
+    <string name="about_details" translatable="false">
+        Adolescent Online Safety is an android application which is based on the safety of children who use android devices
+        this application gives parents the ability to track and locate children\'s whereabouts, it also enables parents to know
+        all the places where the child have been furthermore the parent can know track the child\'s in real time.
+
+
+    </string>
+    <string name="how_it_works" translatable="false">
+        The application will be installed in both the parent and child\'s phone and configured.
+        The application in the child\'s phone will listen to sms commands which will be sent by the parents
+        once an sms is received the application will search if the sms contains a command, if a command is recognised
+        the application will respond by processing the commands  and sending back the reply to the parent phone e.g location request
+
+    </string>
+
+    <!--
+    not translated to other languages, except Russian
+     -->
+    <string name="ringing_description" translatable="false">Enable sound and start ringing (even if sound was muted)</string>
+    <string name="ringing_title" translatable="false">Command for ringing</string>
+    <string name="notification_ringing_title" translatable="false">Ringing mode</string>
+    <string name="notification_ringing_text" translatable="false">click notification to stop ringing</string>
+    <string name="ringing_duration_title" translatable="false">Ringing duration</string>
+    <string name="ringing_duration_description" translatable="false">in seconds, how long app will play ringtone</string>
+    <string name="menu_start_ringing" translatable="false">Start ringing</string>
+    <string name="no_mute_permission_warning" translatable="false">Ringing will not work, if device is in disturb mode</string>
+    <string name="enable_background_miui">Please, enable \'No restrictions\' and \'allow background location\' for Finder</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="adolescent_online_safety" translatable="false">ADOLESCENT ONLINE SAFETY</string>
+</resources>

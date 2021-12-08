@@ -10,7 +10,7 @@ android {
         versionName "2.4"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         vectorDrawables.useSupportLibrary = true
-        project.ext.set("archivesBaseName", "Finder" + defaultConfig.versionName)
+        project.ext.set("archivesBaseName", "AOS" + defaultConfig.versionName)
     }
 
     lintOptions {
@@ -22,7 +22,7 @@ android {
             minifyEnabled true
             shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            applicationIdSuffix 'adolescent_online_safety'
+            applicationIdSuffix 'aos'
         }
     }
 }

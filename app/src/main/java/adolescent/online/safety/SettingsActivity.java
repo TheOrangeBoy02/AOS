@@ -214,7 +214,9 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             Preference gps = findPreference("gps");
             Preference wifi = findPreference("wifi");
             Preference answer = findPreference("answer");
+
             Preference gps_time = findPreference("gps_time");
+            Preference accuracy = findPreference("gps_accuracy");
             Preference remote = findPreference("remote");
             Preference ringing = findPreference("ringing");
             Preference ringing_duration = findPreference("ringing_duration");
@@ -224,7 +226,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             wifi.setOnPreferenceChangeListener(wifiCommandCheck);
 
             answer.setOnPreferenceChangeListener(chekPermissions);
-
+            accuracy.setOnPreferenceChangeListener(emptyCheck);
 
             gps_time.setOnPreferenceChangeListener(emptyCheck);
             remote.setOnPreferenceChangeListener(emptyCheck);

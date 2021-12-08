@@ -4,14 +4,12 @@
             android:defaultValue="Wifi Search"
             android:inputType="text"
             android:key="wifi"
-            android:summary="@string/wifi_description"
             android:title="@string/pref_wifi_name" />
 
         <EditTextPreference
             android:defaultValue="@string/gps_default_command"
             android:inputType="text"
             android:key="gps"
-            android:summary="@string/gps_description"
             android:title="@string/pref_gps_name" />
 
         <EditTextPreference
@@ -19,15 +17,19 @@
             android:dependency="answer"
             android:inputType="text"
             android:key="ringing"
-            android:summary="@string/ringing_description"
             android:title="@string/ringing_title" />
+        <EditTextPreference
+            android:defaultValue="12"
+            android:dependency="answer"
+            android:inputType="number"
+            android:key="gps_accuracy"
+            android:title="@string/desired_accuracy" />
 
         <EditTextPreference
             android:defaultValue="60"
             android:dependency="answer"
             android:inputType="number"
             android:key="ringing_duration"
-            android:summary="@string/ringing_duration_description"
             android:title="@string/ringing_duration_title" />
 
         <EditTextPreference
@@ -35,23 +37,25 @@
             android:dependency="answer"
             android:inputType="number"
             android:key="gps_time"
-            android:summary="@string/gps_time_descr"
             android:title="@string/gps_work_time" />
 
         <CheckBoxPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="answer"
-            android:summary="@string/response_descr"
             android:title="@string/answer_to_requests" />
         <CheckBoxPreference
-            android:title="@string/remote"
-            android:summary="@string/remote_descr"
             android:defaultValue="false"
-            android:key="remote_active" />
+            android:key="remote_active"
+            android:title="@string/remote" />
         <EditTextPreference
             android:title="@string/remote_command"
             android:inputType="text"
             android:key="remote"
             android:dependency="remote_active"/>
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="auto_map"
+            android:summary="@string/auto_map_description"
+            android:title="@string/auto_open_map" />
     </PreferenceCategory>
 </PreferenceScreen>

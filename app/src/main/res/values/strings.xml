@@ -7,17 +7,17 @@
     <string name="phones_for_queries">List of numbers for requests (to request their coordinates):</string>
     <string name="confidant_phones">"List of trusted numbers (the program will respond to their requests): "</string>
     <string name="title_activity_settings">Settings</string>
-    <string name="phone_already_recorded">This number has already been recorded!</string>
-    <string name="number_saved">Phone number saved!</string>
+    <string name="phone_already_recorded">This number has already been saved</string>
+    <string name="number_saved">Phone number saved</string>
     <string name="pref_gps_name">GPS request</string>
-    <string name="gps_default_command" translatable="false">GPS Search</string>
+    <string name="gps_default_command" translatable="false">gps_search</string>
     <string name="gps_description">Text of GPS request command (and response)</string>
-    <string name="wifi_default_command" translatable="false">Wifi Search</string>
+    <string name="wifi_default_command" translatable="false">wifi_search</string>
     <string name="pref_wifi_name">WiFi request</string>
     <string name="wifi_description">Text of Wifi request command (and response)</string>
     <string name="title_activity_maps">Map</string>
     <string name="api_error">Google geolocation API error</string>
-    <string name="parsing_error">no Internet or bad API response</string>
+    <string name="parsing_error">No Internet or bad API response</string>
     <string name="no_map_app">No app to display maps has been detected, please install any maps app</string>
     <string name="btn_hist_text">History</string>
     <string name="history_description">Search history:</string>
